@@ -1,0 +1,18 @@
+
+PUT http://localhost:5000/api/members/6af559a9efde501a11dfb3cd
+
+
+###
+DELETE http://localhost:5000/api/members/6af559a9efde501a11dfb3cd
+Content-Type: application/json
+
+{
+  "name": "Rahul Sharma",
+  "email": "rahul@gmail.com",
+  "phone": "9876543210",
+  "age": 23,
+  "gender": "Male",
+  "plan": "Gold",
+  "status": "Active",
+  "fee": 2000
+}
